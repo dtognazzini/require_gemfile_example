@@ -10,6 +10,12 @@ PATH
     throrg (0.0.1)
       rails (~> 4.0.10)
 
+PATH
+  remote: gems
+  specs:
+    test_utils (0.0.1)
+      shoulda (~> 3.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -128,7 +134,7 @@ DEPENDENCIES
   rails (= 4.0.10)
   sass-rails (~> 4.0.2)
   sdoc
-  shoulda (~> 3.5)
   sqlite3
+  test_utils!
   turbolinks
   uglifier (>= 1.3.0)

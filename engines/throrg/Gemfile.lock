@@ -4,6 +4,16 @@ PATH
     throrg (0.0.1)
       rails (~> 4.0.10)
 
+PATH
+  remote: ..
+  specs:
+
+PATH
+  remote: ../../gems
+  specs:
+    test_utils (0.0.1)
+      shoulda (~> 3.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -83,6 +93,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  shoulda (~> 3.5)
   sqlite3
+  test_utils
   throrg!
