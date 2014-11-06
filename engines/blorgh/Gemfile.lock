@@ -88,6 +88,4 @@ PLATFORMS
 
 DEPENDENCIES
   blorgh!
-  lorde!
   sqlite3
-  throrg!
