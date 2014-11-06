@@ -28,6 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'blorgh', path: "engines"
+gem 'lorde', path: "engines"
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
