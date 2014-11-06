@@ -38,7 +38,7 @@ group :doc do
 end
 
 group :test do
-  gem 'shoulda', '~> 3.5'
+  gem 'test_utils', path: 'gems'
 end
 
 # Use ActiveModel has_secure_password
