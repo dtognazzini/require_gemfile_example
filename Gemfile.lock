@@ -3,6 +3,9 @@ PATH
   specs:
     blorgh (0.0.1)
       rails (~> 4.0.10)
+      throrg
+    throrg (0.0.1)
+      rails (~> 4.0.10)
 
 GEM
   remote: https://rubygems.org/

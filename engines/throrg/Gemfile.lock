@@ -1,13 +1,6 @@
 PATH
   remote: .
   specs:
-    blorgh (0.0.1)
-      rails (~> 4.0.10)
-      throrg
-
-PATH
-  remote: ..
-  specs:
     throrg (0.0.1)
       rails (~> 4.0.10)
 
@@ -84,6 +77,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blorgh!
   sqlite3
   throrg!
