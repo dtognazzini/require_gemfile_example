@@ -1,5 +1,6 @@
 # This file contains all of the sources for all of the Gemfiles used in this project.
 
+path "engines/lorde/gems"
 path "gems"
 path "engines"
 # source 'https://myprivategemserver.net'

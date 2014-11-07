@@ -1,7 +1,5 @@
 require File.expand_path('require_gemfile', File.dirname(__FILE__))
 
-path "engines/lorde/gems"
-
 require_gemfile "sources.gemfile"
 source 'https://rubygems.org'
 
