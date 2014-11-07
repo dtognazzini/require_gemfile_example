@@ -3,4 +3,4 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in test_utils.gemspec
 gemspec
 
-gem 'shoulda', git: 'https://github.com/thoughtbot/shoulda', branch: 'ew-update-shoulda-matchers-in-readme'
+require_gemfile '../../git_overrides.gemfile'

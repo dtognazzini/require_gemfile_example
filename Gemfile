@@ -39,7 +39,8 @@ end
 
 group :test do
   gem 'test_utils', path: 'gems'
-  gem 'shoulda', git: 'https://github.com/thoughtbot/shoulda', branch: 'ew-update-shoulda-matchers-in-readme'
+
+  require_gemfile '../../git_overrides.gemfile'
 end
 
 # Use ActiveModel has_secure_password
