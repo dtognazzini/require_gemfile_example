@@ -1,5 +1,6 @@
 require "../../require_gemfile"
 
+path "../lorde/gems"
 require_gemfile "../../sources.gemfile"
 source "https://rubygems.org"
 
