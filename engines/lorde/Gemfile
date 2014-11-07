@@ -1,6 +1,7 @@
 require "../../require_gemfile"
 
-require_gemfile "../../sources.gemfile"
+require_gemfile "sources.gemfile"
+
 source "https://rubygems.org"
 
 # Declare your gem's dependencies in lorde.gemspec.

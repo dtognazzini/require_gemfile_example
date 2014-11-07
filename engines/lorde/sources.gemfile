@@ -1,0 +1,6 @@
+# Declares the external sources used to resolve gems used by lorde gem and all lorde sub gems.
+
+require_gemfile "../../sources.gemfile"
+
+# This file is only necessary because lorde has an internal sub gem (yayaya) which will pull in this file.
+

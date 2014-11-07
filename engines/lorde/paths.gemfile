@@ -1,0 +1,8 @@
+# Declares the gem paths for gems internal to lorde. Consumers of lorde can
+# require this file and be assured that all of the internal gems comprising
+# the lorde gem can be found. For now, the lorde gem is only composed of a single
+# gem (yayaya) under the gems/ directory. In the future, yayaya itself could be
+# further decomposed. When that happens, this file would be updated require
+# yayaya's path.gemfile
+
+path "gems"
