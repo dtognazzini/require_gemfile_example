@@ -1,7 +1,6 @@
 require "../../require_gemfile"
 
 require_gemfile "../../sources.gemfile"
-source "https://rubygems.org"
 
 # Declare your gem's dependencies in blorgh.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

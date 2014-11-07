@@ -40,6 +40,12 @@ module RequireGemfile
       end
     end
 
+    rubygems_source = other_file.instance_variable_get(:@rubygems_source)
+    if rubygems_source
+      rubygems_source.remotes.each do |remote|
+        @rubygems_source.add_remote(remote)
+      end
+    end
   end
 
   protected

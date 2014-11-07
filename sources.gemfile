@@ -17,9 +17,7 @@ path "gems"
 path "engines"
 
 
-# Finally, external gem sources are declared to resolve gems external to the project. This
-# doesn't currently work because the hack implementation of require_gemfile doesn't support
-# the source DSL method.
+# Finally, external gem sources are declared to resolve gems external to the project.
 
 # source 'https://myprivategemserver.net'
-# source "https://rubygems.org"
+source "https://rubygems.org"

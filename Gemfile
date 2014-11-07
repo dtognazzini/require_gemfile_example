@@ -1,7 +1,6 @@
-require File.expand_path('require_gemfile', File.dirname(__FILE__))
+require 'require_gemfile'
 
 require_gemfile "sources.gemfile"
-source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.10'
