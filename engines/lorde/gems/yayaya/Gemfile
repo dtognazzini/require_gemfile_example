@@ -2,5 +2,4 @@ require '../../../../require_gemfile'
 
 require_gemfile "../../sources.gemfile"
 
-# Specify your gem's dependencies in yayaya.gemspec
 gemspec
