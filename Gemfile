@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
+# Project local gems
 gem 'blorgh'
 gem 'lorde'
 
