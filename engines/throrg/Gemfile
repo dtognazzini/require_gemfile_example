@@ -1,5 +1,6 @@
-path ".."
-path "../../gems"
+require "../../require_gemfile"
+
+require_gemfile "../../sources.gemfile"
 source "https://rubygems.org"
 
 # Declare your gem's dependencies in throrg.gemspec.

@@ -1,0 +1,8 @@
+# This file contains all of the sources for all of the Gemfiles used in this project.
+
+path "gems"
+path "engines"
+# source 'https://myprivategemserver.net'
+
+# I would move this into here as well, but the hack implementation doesn't support source()
+# source "https://rubygems.org"

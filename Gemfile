@@ -1,3 +1,6 @@
+require File.expand_path('require_gemfile', File.dirname(__FILE__))
+
+require_gemfile "sources.gemfile"
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -27,10 +30,8 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-path "engines" do
-  gem 'blorgh'
-  gem 'lorde'
-end
+gem 'blorgh'
+gem 'lorde'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
