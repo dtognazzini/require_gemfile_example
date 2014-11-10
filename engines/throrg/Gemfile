@@ -1,6 +1,9 @@
-require "../../require_gemfile"
+# Project local gems
+path ".."
+path "../../gems"
 
-require_gemfile "../../sources.gemfile"
+# source 'https://myprivategemserver.net'
+source "https://rubygems.org"
 
 gemspec
 

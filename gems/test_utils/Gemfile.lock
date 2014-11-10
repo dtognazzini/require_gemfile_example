@@ -13,18 +13,6 @@ PATH
     test_utils (0.0.1)
       shoulda (~> 3.5)
 
-PATH
-  remote: ..
-  specs:
-
-PATH
-  remote: ../../engines
-  specs:
-
-PATH
-  remote: ../../engines/lorde/gems
-  specs:
-
 GEM
   remote: https://rubygems.org/
   specs:

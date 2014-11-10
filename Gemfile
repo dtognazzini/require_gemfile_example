@@ -1,6 +1,12 @@
-require File.expand_path('require_gemfile', File.dirname(__FILE__))
+# lorde local gems
+path "engines/lorde/gems"
 
-require_gemfile "sources.gemfile"
+# Project local gems
+path "gems"
+path "engines"
+
+# source 'https://myprivategemserver.net'
+source "https://rubygems.org"
 
 gem 'rails', '4.0.10'
 gem 'sqlite3'
@@ -11,7 +17,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
-# Project local gems
 gem 'blorgh'
 gem 'lorde'
 
@@ -20,6 +25,6 @@ group :doc do
 end
 
 group :test do
-  gem 'test_utils', path: 'gems'
+  gem 'test_utils'
   gem 'shoulda', git: 'https://github.com/thoughtbot/shoulda', branch: 'ew-update-shoulda-matchers-in-readme'
 end

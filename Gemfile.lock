@@ -148,6 +148,6 @@ DEPENDENCIES
   sdoc
   shoulda!
   sqlite3
-  test_utils!
+  test_utils
   turbolinks
   uglifier (>= 1.3.0)

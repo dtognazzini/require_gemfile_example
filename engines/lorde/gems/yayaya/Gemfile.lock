@@ -3,18 +3,6 @@ PATH
   specs:
     yayaya (0.0.1)
 
-PATH
-  remote: ..
-  specs:
-
-PATH
-  remote: ../../..
-  specs:
-
-PATH
-  remote: ../../../../gems
-  specs:
-
 GEM
   remote: https://rubygems.org/
   specs:

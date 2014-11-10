@@ -1,5 +1,4 @@
-require '../../../../require_gemfile'
-
-require_gemfile "../../sources.gemfile"
+# source 'https://myprivategemserver.net'
+source "https://rubygems.org"
 
 gemspec
