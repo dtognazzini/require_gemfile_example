@@ -1,6 +1,3 @@
-# lorde local gems
-path "engines/lorde/gems"
-
 # Project local gems
 path "gems"
 path "engines"

@@ -1,6 +1,3 @@
-# Subsystem local gems
-path "gems"
-
 # Project local gems
 path ".."
 path "../../gems"
