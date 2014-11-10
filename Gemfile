@@ -1,4 +1,4 @@
-require 'require_gemfile'
+require File.expand_path('require_gemfile', File.dirname(__FILE__))
 
 require_gemfile "sources.gemfile"
 
