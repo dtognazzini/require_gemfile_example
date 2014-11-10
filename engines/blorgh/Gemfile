@@ -5,5 +5,4 @@ require_gemfile "../../sources.gemfile"
 gemspec
 
 gem 'test_utils'
-gem 'shoulda', git: 'https://github.com/thoughtbot/shoulda', branch: 'ew-update-shoulda-matchers-in-readme'
 

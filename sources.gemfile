@@ -17,7 +17,22 @@ path "gems"
 path "engines"
 
 
-# Finally, external gem sources are declared to resolve gems external to the project.
+# External gem sources are declared to resolve gems external to the project.
 
 # source 'https://myprivategemserver.net'
 source "https://rubygems.org"
+
+
+## Overrides to use across the project
+
+# Use fork-and-patched version released to my private gem server
+gem 'uglifier', '1.3.0.my-patch'
+
+# Use github version
+gem 'multi_json', git: 'https://github.com/intridea/multi_json', branch: 'jrjackson'
+
+# Test environment overrides for all gem environments used in this project
+
+group :test do
+  gem 'shoulda', git: 'https://github.com/thoughtbot/shoulda', branch: 'ew-update-shoulda-matchers-in-readme'
+end
