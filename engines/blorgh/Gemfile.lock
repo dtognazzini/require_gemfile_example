@@ -20,6 +20,7 @@ PATH
   specs:
     lorde (0.0.1)
       rails (~> 4.0.10)
+      yayaya
     throrg (0.0.1)
       rails (~> 4.0.10)
 
@@ -28,6 +29,11 @@ PATH
   specs:
     test_utils (0.0.1)
       shoulda (~> 3.5)
+
+PATH
+  remote: ../lorde/gems
+  specs:
+    yayaya (0.0.1)
 
 GEM
   remote: https://rubygems.org/

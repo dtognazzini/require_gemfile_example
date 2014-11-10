@@ -1,0 +1,5 @@
+require '../../../../require_gemfile'
+
+require_gemfile "../../sources.gemfile"
+
+gemspec

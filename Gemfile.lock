@@ -16,8 +16,14 @@ PATH
       throrg
     lorde (0.0.1)
       rails (~> 4.0.10)
+      yayaya
     throrg (0.0.1)
       rails (~> 4.0.10)
+
+PATH
+  remote: engines/lorde/gems
+  specs:
+    yayaya (0.0.1)
 
 PATH
   remote: gems

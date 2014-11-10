@@ -21,6 +21,10 @@ PATH
   remote: ../../engines
   specs:
 
+PATH
+  remote: ../../engines/lorde/gems
+  specs:
+
 GEM
   remote: https://rubygems.org/
   specs:
