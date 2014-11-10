@@ -1,10 +1,10 @@
 # The project depends on lorde and blorgh per the Gemfile. lorde has internal gems; blorgh does not.
 
-# We pull in a paths.gemfile for sourcing the gems internal to lorde. lorde can be
-# decomposed later into more internal gems. So long as its paths.gemfile is updated
-# with where to find its internal gems, this file, at the project level does not need to be updated.
+# We pull in the lorde/gems for sourcing the gems internal to lorde. lorde can be
+# decomposed later into more internal gems. So long as the gems are stored in lorde/gems
+# this file, at the project level does not need to be updated.
 
-require_gemfile "engines/lorde/paths.gemfile"
+path "engines/lorde/gems"
 
 
 # lorde and blorgh may depend on other gems/engines that are not direct dependencies
